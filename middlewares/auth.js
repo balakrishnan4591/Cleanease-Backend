@@ -4,7 +4,7 @@ const authMiddleware = async (req, res, next) => {
   const { token } = req.headers;
 
   if (!token) {
-    return response.json({
+    return res.json({
       success: false,
       message: "Not Authorized, Login again!",
     });
