@@ -4,9 +4,14 @@
 
 An application which helps users to book their house hold cleaning services, such as Kitchen cleaning, room cleaning, garden cleaning, etc.
 
-## App deployed in Render(deployment in progress, will update this doc shortly)
+## Frontend deployed in Netlify
 
-http://localhost:5173/
+User Portal - https://cleanease-user.netlify.app/
+Admin Portal - https://cleanease-admin.netlify.app/
+
+## App deployed in Render
+
+https://cleanease-backend-gvsh.onrender.com
 
 ## Documentation
 
