@@ -5,7 +5,7 @@ const orderSchema = new mongoose.Schema({
   service: { type: Array, required: true },
   amount: { type: Number, required: true },
   address: { type: Object, required: true },
-  status: { type: String, default: "Order is in Progress" },
+  status: { type: String, default: "Order accepted" },
   date: { type: Date, default: Date.now() },
   payment: { type: Boolean, default: false },
 });
